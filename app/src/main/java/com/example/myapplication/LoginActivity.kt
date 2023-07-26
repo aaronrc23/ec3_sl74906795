@@ -19,8 +19,8 @@ class LoginActivity : AppCompatActivity() {
 
     private fun setupView() {
         binding.btnlogin.setOnClickListener {
-            val usuario = "admin"
-            val pass = "123"
+            val usuario = "ejemplo@idat.edu.pe"
+            val pass = "123456"
 
             val txtUsuario = binding.txtUser.editText?.text.toString().trim()
             val txtPass = binding.txtPass.editText?.text.toString().trim()
